@@ -1,0 +1,306 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$build/default/production/AlternoAlternoPostlab6.o
+resVect CODE 0 0 0 2F 2
+code CODE 0 0 0 189 2
+udata_bank0 BANK0 1 20 20 A 1
+udata_shr COMMON 1 70 70 2 1
+config CONFIG 4 2007 2007 2 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 2A-6F 1
+RAM A0-EF 1
+RAM 110-16F 1
+RAM 190-1EF 1
+BANK0 2A-6F 1
+BANK1 A0-EF 1
+BANK2 110-16F 1
+BANK3 190-1EF 1
+CONST 189-1FFF 2
+ENTRY 189-1FFF 2
+IDLOC 2000-2003 2
+CODE 189-1FFF 2
+COMMON 72-7F 1
+EEDATA 2100-21FF 2
+STRCODE 189-1FFF 2
+STRING 189-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$build/default/production/AlternoAlternoPostlab6.o
+0 resVect CODE >97:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+0 resVect CODE >99:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+2 resVect CODE >100:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+3 resVect CODE >106:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+4 resVect CODE >112:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+5 resVect CODE >113:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+6 resVect CODE >114:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+7 resVect CODE >117:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+8 resVect CODE >118:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+9 resVect CODE >120:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+A resVect CODE >121:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+B resVect CODE >123:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+C resVect CODE >124:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+D resVect CODE >127:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+E resVect CODE >128:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+F resVect CODE >129:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+10 resVect CODE >130:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+11 resVect CODE >131:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+12 resVect CODE >137:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+14 resVect CODE >137:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+15 resVect CODE >137:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+16 resVect CODE >137:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+17 resVect CODE >138:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+18 resVect CODE >139:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+19 resVect CODE >140:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+1A resVect CODE >143:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+1B resVect CODE >144:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+1C resVect CODE >145:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+1D resVect CODE >146:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+1E resVect CODE >149:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+1F resVect CODE >150:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+20 resVect CODE >151:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+21 resVect CODE >152:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+22 resVect CODE >155:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+23 resVect CODE >156:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+24 resVect CODE >157:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+25 resVect CODE >160:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+26 resVect CODE >160:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+27 resVect CODE >160:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+28 resVect CODE >160:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+29 resVect CODE >160:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+2A resVect CODE >161:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+2B resVect CODE >162:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+2C resVect CODE >165:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+2D resVect CODE >166:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+2E resVect CODE >167:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+0 code CODE >173:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+100 code CODE >178:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+101 code CODE >179:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+102 code CODE >180:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+103 code CODE >181:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+104 code CODE >182:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+105 code CODE >183:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+106 code CODE >184:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+107 code CODE >185:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+108 code CODE >186:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+109 code CODE >187:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+10A code CODE >188:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+10B code CODE >189:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+10C code CODE >190:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+10D code CODE >191:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+10E code CODE >192:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+10F code CODE >193:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+110 code CODE >194:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+111 code CODE >195:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+112 code CODE >196:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+113 code CODE >197:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+114 code CODE >203:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+115 code CODE >204:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+116 code CODE >205:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+117 code CODE >206:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+118 code CODE >207:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+119 code CODE >208:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+11A code CODE >209:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+11C code CODE >215:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+11D code CODE >216:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+11E code CODE >217:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+11F code CODE >223:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+121 code CODE >224:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+122 code CODE >225:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+123 code CODE >227:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+125 code CODE >230:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+126 code CODE >231:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+127 code CODE >232:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+128 code CODE >233:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+129 code CODE >235:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+12B code CODE >238:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+12C code CODE >239:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+12D code CODE >240:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+12E code CODE >241:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+12F code CODE >243:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+130 code CODE >246:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+132 code CODE >247:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+133 code CODE >248:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+134 code CODE >249:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+135 code CODE >250:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+136 code CODE >251:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+137 code CODE >254:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+139 code CODE >255:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+13A code CODE >256:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+13B code CODE >257:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+13C code CODE >258:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+13D code CODE >259:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+13E code CODE >261:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+140 code CODE >261:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+141 code CODE >261:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+142 code CODE >261:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+143 code CODE >262:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+144 code CODE >265:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+146 code CODE >266:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+147 code CODE >267:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+148 code CODE >268:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+149 code CODE >269:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+14A code CODE >270:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+14B code CODE >271:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+14C code CODE >273:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+14D code CODE >273:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+14E code CODE >273:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+14F code CODE >273:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+150 code CODE >273:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+151 code CODE >274:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+152 code CODE >277:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+154 code CODE >278:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+155 code CODE >279:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+156 code CODE >280:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+157 code CODE >281:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+158 code CODE >283:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+159 code CODE >285:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+15A code CODE >286:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+15B code CODE >288:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+15D code CODE >289:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+15E code CODE >290:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+15F code CODE >291:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+160 code CODE >292:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+161 code CODE >293:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+162 code CODE >297:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+164 code CODE >298:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+165 code CODE >299:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+166 code CODE >301:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+168 code CODE >302:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+169 code CODE >303:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+16A code CODE >304:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+16B code CODE >305:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+16C code CODE >306:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+16D code CODE >307:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+16E code CODE >308:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+16F code CODE >311:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+170 code CODE >312:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+171 code CODE >312:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+172 code CODE >312:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+173 code CODE >312:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+174 code CODE >312:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+175 code CODE >312:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+176 code CODE >312:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+177 code CODE >312:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+178 code CODE >312:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+179 code CODE >312:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+17A code CODE >312:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+17B code CODE >312:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+17C code CODE >314:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+17D code CODE >315:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+17E code CODE >316:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+17F code CODE >318:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+180 code CODE >319:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+181 code CODE >320:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+182 code CODE >321:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+183 code CODE >324:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+184 code CODE >325:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+185 code CODE >326:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+186 code CODE >327:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+187 code CODE >328:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+188 code CODE >329:C:\Users\RAMIR\Desktop\Uvg\Semestre4\micros\Postlab6AlejandroRamírez\AlternoAlternoPostlab6.X\AlternoAlternoPostlab6.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+__Hspace_0 189 0 ABS 0 - -
+__Hspace_1 72 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 4010 0 ABS 0 - -
+__Hudata_bank0 0 0 ABS 0 udata_bank0 -
+__Hudata_bank1 0 0 ABS 0 udata_bank1 -
+__Hudata_bank2 0 0 ABS 0 udata_bank2 -
+__Hudata_bank3 0 0 ABS 0 udata_bank3 -
+__LresVect 0 0 ABS 0 resVect -
+__Hedata 0 0 ABS 0 edata -
+__Hudata 0 0 ABS 0 udata -
+__Hconfig 4012 0 CONFIG 4 config -
+__Ledata 0 0 ABS 0 edata -
+__Ludata 0 0 ABS 0 udata -
+__Hcode 0 0 ABS 0 code -
+__Hdata 0 0 ABS 0 data -
+__Lcode 0 0 ABS 0 code -
+__Ldata 0 0 ABS 0 data -
+__S0 0 0 ABS 0 - -
+__S1 72 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+__HresVect 0 0 ABS 0 resVect -
+__Lconfig 0 0 CONFIG 4 config -
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+__Ludata_bank0 0 0 ABS 0 udata_bank0 -
+__Ludata_bank1 0 0 ABS 0 udata_bank1 -
+__Ludata_bank2 0 0 ABS 0 udata_bank2 -
+__Ludata_bank3 0 0 ABS 0 udata_bank3 -
+__Hudata_shr 0 0 ABS 0 udata_shr -
+__Ludata_shr 0 0 ABS 0 udata_shr -
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+udata_bank0 1 20 20 A 1
+udata_shr 1 70 70 2 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
